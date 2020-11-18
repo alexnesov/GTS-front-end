@@ -1,6 +1,4 @@
-{%extends "base.html"%}
 
-{% block content%}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +6,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
             integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -18,7 +18,10 @@
     </head>
 
 
-<body id="Dashboard_page">
+    <div id="nav-placeholder">
+
+    </div>
+    
 
 <div id="sidebar">
     <div class="toggle-btn" onclick="toggleSidebar(this)">
@@ -31,7 +34,7 @@
       <div class="item">Stocks</div>
       <div class="item">RTVS detector</div>
       <div class="item">Infrastructure Health</div>
-      <div class="item"><a href="">Table</a></div>
+      <div class="item"><a href="table.html">Table</a></div>
 
     </div>
   </div>
@@ -41,5 +44,4 @@
 </body>
 </html>
 
-{%endblock%}
 
