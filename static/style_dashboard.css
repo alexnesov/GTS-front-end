@@ -1,42 +1,42 @@
 * {
-  margin:0px;
-  padding:0px;
-  box-sizing:border-box;
-  font-family:sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 #sidebar {
-  position:absolute;
-  top:57px;
-  bottom: 60px;
-  left:-200px;
-  width:200px;
-  height:100%;
-  background:#151719;
-  transition:all 300ms linear;
+  position: fixed;
+  /* top: 57px; */
+  bottom: 0px;
+  left: -200px;
+  width: 200px;
+  height: calc(100% - 85px);
+  background: #151719;
+  transition: all 300ms linear;
 }
 #sidebar.active {
-  left:0px;
+  left: 0px;
 }
 #sidebar .toggle-btn {
-  position:absolute;
-  left:220px;
-  top:20px;
+  position: absolute;
+  left: 220px;
+  top: 20px;
 }
 #sidebar .toggle-btn span {
-  display:block;
-  width:30px;
-  height:5px;
-  background:#151719;
-  margin:5px 0px;
-  cursor:pointer;
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #151719;
+  margin: 5px 0px;
+  cursor: pointer;
 }
 #sidebar div.list div.item {
-  padding:15px 10px;
-  border-bottom:1px solid #444;
-  color:#fcfcfc;
-  text-transform:uppercase;
-  font-size:15px;
+  padding: 15px 10px;
+  border-bottom: 1px solid #444;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 body {
   background: rgb(255, 255, 255);
@@ -48,6 +48,10 @@ body {
   opacity: 0.8;
 }
 
-.navbar.navbar-expand-sm.bg-dark.navbar-dark.fixed-top li a{
+.navbar.navbar-expand-sm.bg-dark.navbar-dark.fixed-top li a {
   color: white !important;
+}
+
+.navbar-brand img {
+  width: 40px;
 }
