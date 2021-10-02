@@ -1,0 +1,39 @@
+
+body {
+  background: rgb(255, 255, 255);
+  color: white !important;
+
+}
+
+
+
+@font-face{
+  src: url(../fonts/Roboto-Light.ttf);
+  font-family: Roboto;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark.fixed-top li a{
+  color: white !important;
+}
+
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+.navbar li a{
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.container.custom-container {
+  padding-left: 20%;
+}
